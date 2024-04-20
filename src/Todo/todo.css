@@ -1,0 +1,28 @@
+.status-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  border: none;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+
+.task-card {
+  /* margin: 10px; */
+  padding: 10px;
+  border: 1px solid rgb(41, 24, 191);
+  border-radius: 5px;
+}
+
+.task-card:hover {
+  cursor: pointer;
+}
+
+.TodosContainer {
+  display: flex;
+  gap: 10px;
+}
